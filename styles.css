@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    background-color:hsl(30, 38%, 92%);
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.product-card {
+    border-radius: 10px;
+    background-color: white;
+}
+
+img {
+    max-width: 375px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product-info {
+    padding: 10px 20px;
+}
+
+.product-category {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color:  hsl(228, 12%, 48%);
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin: 8px 0px;
+}
+
+.product-title {
+    font-family: Fraunces, 'Times New Roman', Times, serif;
+    color:hsl(212, 21%, 14%);
+    font-size: 32px;
+    padding-bottom: 0px;
+    margin: 8px 0px;
+}
+
+.product-description {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color:  hsl(228, 12%, 48%);
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 15px 0px;
+    line-height: 1.6em;
+}
+
+.price-info {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.price {
+    font-family: Fraunces, 'Times New Roman', Times, serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.discount-price {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-decoration: line-through;
+    color:  hsl(228, 12%, 48%);
+    align-self: center;
+}
+
+.button {
+    display: block;
+    background-color: hsl(158, 36%, 37%);
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color:hsl(212, 21%, 14%);
+}
+
+#cart-icon {
+    margin-right: 10px;
+    vertical-align: middle;   
+}
+
+@media screen and (min-width: 768px) {
+    .attribution a {
+        color: black;
+}
