@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [View Project in Browser](https://trent-townsend.github.io/Product-preview-card-component-Frontend-Mentor-/)
+- Solution URL: [HTML](https://github.com/trent-townsend/Product-preview-card-component-Frontend-Mentor-/blob/main/index.html), [CSS](https://github.com/trent-townsend/Product-preview-card-component-Frontend-Mentor-/blob/main/styles.css)
 
 ### Built with
 - Semantic HTML5 markup
